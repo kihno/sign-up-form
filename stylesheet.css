@@ -2,6 +2,9 @@
     
 body {
     display:flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
 }
 
 #img-container {
@@ -12,9 +15,24 @@ body {
     height: 100vh;
 }
 
-#logo {
+#logo-bg {
     display: flex;
-    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    gap: 10px;
+    height: 6rem;
+    font-family: 'FuturaRennerRegular';
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#logo {
+    height: 4em;
+}
+
+h1 {
+    font-size: 60px;
 }
 
 #form-container {
@@ -36,4 +54,13 @@ form {
 label {
     display: flex;
     flex-direction: column;
+}
+
+#credit {
+    color: white;
+    width: 40%;
+    bottom: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
 }
