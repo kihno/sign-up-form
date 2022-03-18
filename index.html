@@ -20,8 +20,10 @@
 
     <div id="form-container">
 
-        <p class="text">The unsolved riddles. The big mysteries. The questions on the tip of your tongue.<br>All of the answers lie within.<br>Will you open the door?</p>
-        <p class="text">You <i>know</i> you want to.</p>
+        <div id="intro">
+            <p class="text">The unsolved riddles. The big mysteries. The questions on the tip of your tongue.<br>All of the answers lie within.<br>Will you open the door?</p>
+            <p class="text">You <i>know</i> you want to.</p>
+        </div>
 
         <form id="sign-up">
 
@@ -58,9 +60,11 @@
 
         </form>
 
-        <button type="submit" form="sign-up">Create Account</button>
+        <div id="outro">
+            <button type="submit" form="sign-up">Create Account</button>
 
-        <p>Already have an account? Log in</p>
+            <p id="login">Already have an account? <a href="index.html">Log in</a></p>
+        </div>
 
         <footer id="footer">This is not a real online service.</footer>
 

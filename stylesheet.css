@@ -5,6 +5,7 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #img-container {
@@ -13,6 +14,7 @@ body {
     background-position: center;
     width: 30%;
     height: 100vh;
+    
 }
 
 #logo-bg {
@@ -44,11 +46,17 @@ h1 {
     background-color: lightgrey;
 }
 
+#intro, #outro, form {
+    padding-left: 20px;
+}
+
 form {
     display: flex;
     flex-direction: column;
     width: 100%;
     background-color: white;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 4px 1px rgba(0,0,0,0.2);
 }
 
 .field {
@@ -67,13 +75,36 @@ label {
     font-size: 140%;;
 }
 
+button {
+    margin-top: 20px;
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.2);
+}
+
+#login {
+    font-weight: bold;
+}
+
 #credit {
     color: white;
     width: 30%;
-    bottom: 0;
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
+}
+
+#footer {
+    width: 70%;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
 }
 
 footer>a {
