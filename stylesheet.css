@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
     
 body {
     display:flex;
@@ -11,7 +11,7 @@ body {
     background-image: url(images/triangle-tunnel.jpg);
     background-size: cover;
     background-position: center;
-    width: 40%;
+    width: 30%;
     height: 100vh;
 }
 
@@ -22,7 +22,7 @@ body {
     margin-top: 300px;
     gap: 10px;
     height: 6rem;
-    font-family: 'FuturaRennerRegular';
+    font-family: 'FuturaRennerRegular', monospace;
     color: white;
     background-color: rgba(0,0,0,0.5);
 }
@@ -37,13 +37,18 @@ h1 {
 
 #form-container {
     flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100vh;
-    padding: 10px;
+    background-color: lightgrey;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    background-color: white;
 }
 
 .field {
@@ -56,11 +61,21 @@ label {
     flex-direction: column;
 }
 
+.text {
+    font-family: 'space mono', monospace;
+    font-weight: bold;
+    font-size: 140%;;
+}
+
 #credit {
     color: white;
-    width: 40%;
+    width: 30%;
     bottom: 0;
     text-align: center;
     position: absolute;
     bottom: 0;
+}
+
+footer>a {
+    color: white;
 }
