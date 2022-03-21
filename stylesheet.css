@@ -46,9 +46,13 @@ h1 {
     background-color: lightgrey;
 }
 
-#intro, #outro, form {
+#intro, #outro, form, #login {
     padding-left: 30px;
     margin-bottom: 30px;
+}
+
+#outro {
+    height: 2rem;
 }
 
 form {
@@ -70,6 +74,7 @@ form {
 label {
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 
 input {
@@ -92,6 +97,7 @@ input:focus {
 #error {
     height: 1em;
     color: red;
+    margin-top: 5px;
 }
 
 .text {
@@ -103,7 +109,7 @@ input:focus {
 .label {
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 90%;
+    font-size: 75%;
     margin-bottom: 5px;
 }
 
@@ -121,6 +127,8 @@ button {
 
 button:hover {
     cursor: pointer;
+    height: 3.1rem;
+    width: 10.1rem;
 }
 
 button:active {

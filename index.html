@@ -45,7 +45,7 @@
                     <input type="email" id="email" name="email" required>
                 </label>
                 <label for="phone" class="label">Phone Number
-                    <input type="tel" id="phone" name="phone" required>
+                    <input type="tel" id="phone" name="phone" min="10" max="13" required>
                 </label>
             </div>
 
@@ -57,15 +57,16 @@
                 <label for="confirm-password" class="label">Confirm Password
                     <input type="password" id="confirm-password" name="password" required>
                 </label>
+    
             </div>
 
         </form>
 
         <div id="outro">
-            <button type="submit" form="sign-up">Create Account</button>
-
-            <p id="login">Already have an account? <a href="index.html">Log in</a></p>
+            <button type="submit" form="sign-up" id="submit">Create Account</button>
         </div>
+
+        <p id="login">Already have an account? <a href="index.html">Log in</a></p>
 
         <footer id="footer">This is not a real online service.</footer>
 
